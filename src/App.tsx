@@ -49,7 +49,7 @@ function App() {
 
     // 2. Calcular el costo actual
     const cost = calculateCost(targetUpgrade.baseCost, targetUpgrade.count);
-
+		
     // 3. Verificar si tenemos suficiente entropía
     if (entropy >= cost) {
       // 4. Restar el costo de forma segura usando el estado previo
